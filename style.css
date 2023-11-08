@@ -1,0 +1,288 @@
+/* Add CSS here */
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUyfHxjbG91ZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    flex-direction: column;
+}
+
+.container {
+    height: 370px;
+    overflow: hidden;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 4px #48cdcf;
+}
+
+.closet-1 {
+    background-color: #effbf9;
+    width: 60%;
+    height: 370px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 30px;
+}
+
+.closet-2 {
+    background-color: #effbf9;
+    width: 40%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.median {
+    height: 24px;
+    background-color: #e6f2f2;
+    margin: 0 auto;
+    position: absolute;
+    transform: rotate(90deg);
+    min-width: 370px;
+    margin-left: 150px;
+    border-color: #ffffff;
+    background-image: radial-gradient(circle, transparent 72%, #effbf9 72%),
+    repeating-linear-gradient(90deg, #effbf9 0, #effbf9 2%, #c7ecee 2%, #c7ecee 4%),
+    linear-gradient(#effbf9, #effbf9),
+    radial-gradient(circle, transparent 72%, #ffffff 72%);
+    background-size: 24px 24px, calc(100% - 24px) 1px, calc(100% - 24px) 100%, 24px 24px;
+    background-position: -12px 0, 12px 50%, 12px 0, calc(100% + 12px) 0;
+    background-repeat: no-repeat;
+}
+
+.comp {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp h1 {
+    font-size: 50px;
+    color: #03d7db;
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.lane {
+    width: 5%;
+    background-color: rgb(197, 202, 206);
+    height: 2px;
+}
+
+.details {
+    background-color: #d0fcf7;
+    width: 100%;
+    margin-top: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.cards h1 {
+    font-size: 15px;
+    color: #888282;
+}
+
+.cards h2 {
+    font-size: 17px;
+    font-weight: 800;
+    color: #03d7db;
+}
+
+.closet-1 p {
+    margin-top: 60px;
+    font-size: 12px;
+    color: #837c7c;
+}
+
+.closet-1 {
+    background-color: #effbf9;
+    width: 60%;
+    height: 370px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 30px;
+}
+
+.inner-closet {
+    width: 830px;
+    height: 300px;
+    transform: rotate(270deg);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 30px;
+}
+
+.vector-code {
+    margin-top: 20px;
+}
+.holder{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top:10px;
+    color: #00fbff;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUyfHxjbG91ZHxlbnwwfHwwfHx8MA%3D%3D");
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .container {
+        height: 370px;
+        overflow: hidden;
+        max-width: 750px;
+        display: flex;
+        min-width: 640px;
+        align-items: center;
+        transform: rotate(90deg);
+        justify-content: center;
+        box-shadow: 0 4px 8px 4px #48cdcf;
+    }
+
+    .closet-1 {
+        background-color: #effbf9;
+        width: 60%;
+        height: 370px;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 30px;
+    }
+
+    .closet-2 {
+        background-color: #effbf9;
+        width: 40%;
+        height: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .median {
+        height: 24px;
+        background-color: #eff9f9;
+        margin: 0 auto;
+        position: absolute;
+        transform: rotate(90deg);
+        min-width: 370px;
+        margin-left: 130px;
+        border-color: #ffffff;
+        background-image: radial-gradient(circle, transparent 72%, #effbf9 72%),
+            repeating-linear-gradient(90deg, #effbf9 0, #effbf9 2%, #c7ecee 2%, #c7ecee 4%),
+            linear-gradient(#effbf9, #effbf9),
+            radial-gradient(circle, transparent 72%, #ffffff 72%);
+        background-size: 24px 24px, calc(100% - 24px) 1px, calc(100% - 24px) 100%, 24px 24px;
+        background-position: -12px 0, 12px 50%, 12px 0, calc(100% + 12px) 0;
+        background-repeat: no-repeat;
+    }
+
+    .comp {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comp h1 {
+        font-size: 50px;
+        color: #03d7db;
+        font-weight: 700;
+        line-height: 35px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .lane {
+        width: 5%;
+        background-color: rgb(197, 202, 206);
+        height: 2px;
+    }
+
+    .details {
+        background-color: #d0fcf7;
+        width: 100%;
+        margin-top: 30px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .cards h1 {
+        font-size: 15px;
+        color: #888282;
+    }
+
+    .cards h2 {
+        font-size: 17px;
+        font-weight: 800;
+        color: #03d7db;
+    }
+
+    .closet-1 p {
+        margin-top: 60px;
+        font-size: 12px;
+        color: #837c7c;
+    }
+
+    .closet-1 {
+        background-color: #effbf9;
+        width: 60%;
+        height: 370px;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 30px;
+    }
+
+    .inner-closet {
+        width: 830px;
+        height: 300px;
+        transform: rotate(270deg);
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 30px;
+    }
+
+    .vector-code {
+        margin-top: 5px;
+    }
+}
